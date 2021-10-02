@@ -410,6 +410,7 @@
             
             mat4.rotate(m1,m1,tiempo*año,[0,1,0]);
             mat4.translate(m1,m1,[60,0,0]);
+            mat4.rotate(m1,m1,(-1)*tiempo*año,[0,1,0]);
             
             mat4.rotate(m11,m1,0.41,vec3.fromValues(0,0,1));
             mat4.rotate(m11,m11,tiempo*día,vec3.fromValues(0,1,0));
